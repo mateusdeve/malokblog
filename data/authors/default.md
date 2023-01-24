@@ -1,16 +1,19 @@
 ---
-name: Tails Azimuth
+name: Mateus Pires
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
+occupation: Garoto de programa
+company: VTSD
+email: mateus.dev.ti@gmail.com
+# twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Sou Desenvolvedor Web, as vezes no front e as vezes no back, famoso pau pra toda obra, trabalho na área a mais de 4 anos (por ai).
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Sou apaixonado por tecnologia e gosto muito de ensinar pessoas, meu foco aqui nesse blog é ajudar as pessoas que, igual a mim quando comecei,
+tinha muita dificuldade para entender como o pessoal falava de tecnologia, vou falar com você na malandragem, como você (lá ele 3x) fala com sua rapaziada no dia-a-dia
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Não repara no meu português, to no corre pra arrumar essa parada ai kk
+
+TMJ meu pivete!
