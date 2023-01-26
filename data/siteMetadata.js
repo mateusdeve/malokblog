@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: 'MalokBlog',
+  title: 'Bloglezito',
   author: 'Mateus Pires',
-  headerTitle: 'MalokBlog',
+  headerTitle: 'Bloglezito',
   description: 'Falando de tecnologia na giria diferenciada',
-  language: 'en-us',
+  language: 'pt-br',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
@@ -16,7 +16,7 @@ const siteMetadata = {
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/mateussilveirapires/',
-  locale: 'en-US',
+  locale: 'pt-BR',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.

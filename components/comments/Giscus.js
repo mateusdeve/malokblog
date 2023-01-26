@@ -32,16 +32,16 @@ const Giscus = () => {
 
     const script = document.createElement('script')
     script.src = 'https://giscus.app/client.js'
-    script.setAttribute('data-repo', repo)
-    script.setAttribute('data-repo-id', repositoryId)
-    script.setAttribute('data-category', category)
-    script.setAttribute('data-category-id', categoryId)
-    script.setAttribute('data-mapping', mapping)
-    script.setAttribute('data-reactions-enabled', reactions)
-    script.setAttribute('data-emit-metadata', metadata)
-    script.setAttribute('data-input-position', inputPosition)
-    script.setAttribute('data-lang', lang)
-    script.setAttribute('data-theme', commentsTheme)
+    script.setAttribute('data-repo', 'mateusdeve/comments')
+    script.setAttribute('data-repo-id', 'R_kgDOI2KssQ')
+
+    script.setAttribute('data-category-id', 'DIC_kwDOI2Kssc4CT0dg')
+    script.setAttribute('data-mapping', 'pathname')
+    script.setAttribute('data-reactions-enabled', '1')
+    script.setAttribute('data-emit-metadata', '0')
+    script.setAttribute('data-input-position', 'bottom')
+    script.setAttribute('data-lang', 'pt')
+    script.setAttribute('data-theme', 'dark_dimmed')
     script.setAttribute('crossorigin', 'anonymous')
     script.async = true
 
@@ -63,7 +63,14 @@ const Giscus = () => {
 
   return (
     <div className="pt-6 pb-6 text-center text-gray-700 dark:text-gray-300">
-      {enableLoadComments && <button onClick={LoadComments}>Load Comments</button>}
+      {enableLoadComments && (
+        <button
+          className="rounded-sm bg-cyan-500 py-3 px-6 font-semibold text-black"
+          onClick={LoadComments}
+        >
+          Mostrar comentários
+        </button>
+      )}
       <div className="giscus" id={COMMENTS_ID} />
     </div>
   )
