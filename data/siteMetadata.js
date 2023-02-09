@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Bloglezito',
   author: 'Mateus Pires',
   headerTitle: 'Bloglezito',
-  description: 'Falando de tecnologia na giria diferenciada',
+  description: 'Se não aprender pelo menos vai dar risada',
   language: 'pt-br',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
