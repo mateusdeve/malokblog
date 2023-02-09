@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Bloglezito',
+  title: '<Quelespiqueblog />',
   author: 'Mateus Pires',
-  headerTitle: 'Bloglezito',
+  headerTitle: '<Quelespiqueblog />',
   description: 'Se não aprender pelo menos vai dar risada',
   language: 'pt-br',
   theme: 'system', // system, dark or light
