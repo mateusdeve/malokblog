@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: '<Quelespiqueblog />',
+  title: 'Daily Code',
   author: 'Mateus Pires',
-  headerTitle: '<Quelespiqueblog />',
+  headerTitle: 'Daily Code',
   description: 'Se não aprender pelo menos vai dar risada',
   language: 'pt-br',
   theme: 'system', // system, dark or light
