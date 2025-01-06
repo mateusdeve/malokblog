@@ -1,6 +1,6 @@
 ---
 name: Mateus Pires
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.jpeg
 occupation: Desenvolvedor Web
 company: VTSD
 email: mateus.dev.ti@gmail.com
