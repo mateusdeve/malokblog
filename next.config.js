@@ -2,49 +2,50 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-// Remova ou comente a definição da ContentSecurityPolicy
-/*
+// Atualização na Content Security Policy para permitir GTM e Simple Analytics
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com https://quelespiqueblog.vercel.app https://scripts.simpleanalyticscdn.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com  https://scripts.simpleanalyticscdn.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app https://www.googletagmanager.com https://quelespiqueblog.vercel.app https://scripts.simpleanalyticscdn.com;
-`;
-*/
+  frame-src giscus.app https://www.googletagmanager.com  https://scripts.simpleanalyticscdn.com;
+`
 
 const securityHeaders = [
-  // Remova o header da Content Security Policy
-  /*
+  // Content Security Policy
   {
     key: 'Content-Security-Policy',
     value: ContentSecurityPolicy.replace(/\n/g, ''),
   },
-  */
-  // Mantenha os outros headers conforme necessário
+  // Referrer Policy
   {
     key: 'Referrer-Policy',
     value: 'strict-origin-when-cross-origin',
   },
+  // X-Frame-Options
   {
     key: 'X-Frame-Options',
     value: 'DENY',
   },
+  // X-Content-Type-Options
   {
     key: 'X-Content-Type-Options',
     value: 'nosniff',
   },
+  // X-DNS-Prefetch-Control
   {
     key: 'X-DNS-Prefetch-Control',
     value: 'on',
   },
+  // Strict-Transport-Security
   {
     key: 'Strict-Transport-Security',
     value: 'max-age=31536000; includeSubDomains',
   },
+  // Permissions Policy
   {
     key: 'Permissions-Policy',
     value: 'camera=(), microphone=(), geolocation=()',
@@ -61,7 +62,7 @@ module.exports = withBundleAnalyzer({
     return [
       {
         source: '/(.*)',
-        headers: securityHeaders, // Agora sem a CSP
+        headers: securityHeaders,
       },
     ]
   },
