@@ -2,7 +2,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-// Atualização na Content Security Policy para permitir GTM e Simple Analytics
+// Remova ou comente a definição da ContentSecurityPolicy
+/*
 const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com https://quelespiqueblog.vercel.app https://scripts.simpleanalyticscdn.com;
@@ -12,40 +13,38 @@ const ContentSecurityPolicy = `
   connect-src *;
   font-src 'self';
   frame-src giscus.app https://www.googletagmanager.com https://quelespiqueblog.vercel.app https://scripts.simpleanalyticscdn.com;
-`
+`;
+*/
 
 const securityHeaders = [
-  // Content Security Policy
+  // Remova o header da Content Security Policy
+  /*
   {
     key: 'Content-Security-Policy',
     value: ContentSecurityPolicy.replace(/\n/g, ''),
   },
-  // Referrer Policy
+  */
+  // Mantenha os outros headers conforme necessário
   {
     key: 'Referrer-Policy',
     value: 'strict-origin-when-cross-origin',
   },
-  // X-Frame-Options
   {
     key: 'X-Frame-Options',
     value: 'DENY',
   },
-  // X-Content-Type-Options
   {
     key: 'X-Content-Type-Options',
     value: 'nosniff',
   },
-  // X-DNS-Prefetch-Control
   {
     key: 'X-DNS-Prefetch-Control',
     value: 'on',
   },
-  // Strict-Transport-Security
   {
     key: 'Strict-Transport-Security',
     value: 'max-age=31536000; includeSubDomains',
   },
-  // Permissions Policy
   {
     key: 'Permissions-Policy',
     value: 'camera=(), microphone=(), geolocation=()',
@@ -62,7 +61,7 @@ module.exports = withBundleAnalyzer({
     return [
       {
         source: '/(.*)',
-        headers: securityHeaders,
+        headers: securityHeaders, // Agora sem a CSP
       },
     ]
   },
