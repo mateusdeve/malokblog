@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Seu guia descontraído para o mundo tech',
   language: 'pt-br',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://quelespiqueblog.vercel.app/',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpeg',
