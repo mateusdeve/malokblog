@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Daily Code',
+  title: 'Papo de Código',
   author: 'Mateus Pires',
-  headerTitle: 'Daily Code',
-  description: 'Se não aprender pelo menos vai dar risada',
+  headerTitle: 'Papo de Código',
+  description: 'Seu guia descontraído para o mundo tech',
   language: 'pt-br',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

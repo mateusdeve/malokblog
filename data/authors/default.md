@@ -1,19 +1,22 @@
 ---
 name: Mateus Pires
 avatar: /static/images/avatar.png
-occupation: Garoto de programa
+occupation: Desenvolvedor Web
 company: VTSD
 email: mateus.dev.ti@gmail.com
 # twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+linkedin: https://www.linkedin.com/in/mateuspires
+github: https://github.com/mateuspires
 ---
 
-Sou Desenvolvedor Web, as vezes no front e as vezes no back, famoso pau pra toda obra, trabalho na área a mais de 4 anos (por ai).
+## Sobre Mim
 
-Sou apaixonado por tecnologia e gosto muito de ensinar pessoas, meu foco aqui nesse blog é ajudar as pessoas que, igual a mim quando comecei,
-tinha muita dificuldade para entender como o pessoal falava de tecnologia, vou falar com você na malandragem, como você (lá ele 3x) fala com sua rapaziada no dia-a-dia
+Fala, galera! 👋
 
-Não repara no meu português, to no corre pra arrumar essa parada ai kk
+Sou **Mateus Pires**, Desenvolvedor Web – às vezes no front, outras no back, e sempre pronto pra qualquer parada. Já tô nessa jornada há mais de 4 anos, navegando pelas ondas da tecnologia e curtindo cada desafio que aparece.
 
-TMJ meu pivete!
+A tecnologia é minha paixão e ensinar é meu combustível. Criei esse blog pra ajudar você que, igual a mim no início, ficou meio perdido com o vocabulário da galera de tech. Aqui, vou te explicar tudo na moral, do jeito que você troca ideia com a rapaziada no fim de semana.
+
+Não dá muita moral pro meu português ainda, tô no corre pra arrumar essa parada aí kk.
+
+**TMJ, meu pivete!**
