@@ -5,13 +5,13 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // Atualização na Content Security Policy para permitir GTM e Simple Analytics
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com https://quelespiqueblog.vercel.app https://scripts.simpleanalyticscdn.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com;
+  frame-src giscus.app https://www.googletagmanager.com https://quelespiqueblog.vercel.app https://scripts.simpleanalyticscdn.com;
 `
 
 const securityHeaders = [
