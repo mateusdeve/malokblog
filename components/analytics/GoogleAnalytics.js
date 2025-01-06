@@ -2,7 +2,7 @@ import Script from 'next/script'
 import siteMetadata from '@/data/siteMetadata'
 
 const GTMScript = () => {
-  const gtmId = siteMetadata.analytics.googleTagManagerId
+  const gtmId = 'GTM-TJ3GDSPP'
 
   return (
     <>
