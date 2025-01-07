@@ -16,6 +16,7 @@ import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 import { useEffect } from 'react'
 import TagManager from 'react-gtm-module'
+import { Analytics as Vercel } from '@vercel/analytics/react'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
@@ -31,7 +32,9 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       {isDevelopment && isSocket && <ClientReload />}
+      <Vercel />
       <Analytics />
+
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
