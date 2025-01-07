@@ -56,7 +56,7 @@ Com o aumento das ameaças digitais, a cibersegurança virou prioridade. Conhece
 - **Foque na sustentabilidade**: Otimize seu código e use linguagens eficientes.
 - **Fortaleça suas habilidades em cibersegurança**: Participa de workshops e certificações como a [Certified Ethical Hacker](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/).
 
-## **Conclusão**
+## **Toques Finais**
 
 2025 promete ser um ano incrível para a programação, com muitas novidades e oportunidades. Se você tá começando agora ou já é veterano, tem muita coisa massa pra aprender e explorar. Então, não dorme no ponto e vai com tudo! 💪
 

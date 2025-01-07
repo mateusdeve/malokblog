@@ -69,7 +69,7 @@ Estuda algoritmos e estruturas de dados. Sites como [LeetCode](https://leetcode.
 - **Não Tenha Medo de Errar**: Erros fazem parte do aprendizado. Aprende com eles!
 - **Seja Consistente**: Mesmo que seja um pouquinho por dia, o importante é não parar.
 
-## **Conclusão**
+## **Toques Finais**
 
 Entrar na carreira de programador pode parecer assustador no começo, mas com dedicação e as dicas certas, você chega lá! 🚀 Não desanima quando pintar uma dificuldade, respira fundo e segue em frente. A comunidade de programação é super acolhedora e sempre disposta a ajudar.
 
