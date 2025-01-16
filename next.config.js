@@ -11,7 +11,7 @@ const ContentSecurityPolicy = `
   media-src 'none';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com https://connect.facebook.net https://www.facebook.com;
+  frame-src giscus.app https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com https://connect.facebook.net https://www.facebook.com https://m.facebook.com;
 `
 
 const securityHeaders = [
