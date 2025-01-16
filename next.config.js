@@ -2,16 +2,16 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-// Atualização na Content Security Policy para permitir GTM e Simple Analytics
+// Atualização na Content Security Policy para permitir GTM, Simple Analytics, Facebook e Vercel Analytics
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com  https://scripts.simpleanalyticscdn.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com https://connect.facebook.net https://va.vercel-scripts.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app https://www.googletagmanager.com  https://scripts.simpleanalyticscdn.com;
+  frame-src giscus.app https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com https://connect.facebook.net https://www.facebook.com;
 `
 
 const securityHeaders = [
