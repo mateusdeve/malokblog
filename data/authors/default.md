@@ -11,8 +11,8 @@ github: https://github.com/mateuspires
 
 ## Sobre Mim
 
-Fala, galera! 👋
+Opa! 👋
 
-Sou **Mateus Pires**, Desenvolvedor Web – às vezes no front, outras no back, e sempre pronto pra qualquer parada. Já tô nessa jornada há mais de 4 anos, navegando pelas ondas da tecnologia e curtindo cada desafio que aparece.
+Sou **Mateus Pires**, Desenvolvedor Web com mais de 6 anos de experiência atuando tanto no front-end quanto no back-end. Ao longo da minha trajetória, tenho trabalhado em diversos projetos e tecnologias, sempre com disposição para aprender e encarar novos desafios.
 
-A tecnologia é minha paixão e ensinar é meu combustível. Criei esse blog pra ajudar você que, igual a mim no início, ficou meio perdido com o vocabulário da galera de tech. Aqui, vou te explicar tudo na moral, do jeito que você troca ideia com a rapaziada no fim de semana.
+A tecnologia é uma das minhas grandes paixões, mas compartilhar conhecimento é o que realmente me move. Criei este blog para ajudar quem está começando na área – especialmente quem se sente perdido com o vocabulário técnico e o ritmo acelerado do mundo dev. Aqui, meu objetivo é explicar de forma clara, direta e acessível, como se fosse aquela conversa descontraída com os amigos.
